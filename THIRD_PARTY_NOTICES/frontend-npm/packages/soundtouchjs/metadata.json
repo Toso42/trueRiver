@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-P/+SwnIE4BLrMbYK8aB8+GfXRfLv3+BV8HFMrEqOuF0F9BsI3sKEN1T+kY/JqiVURcCQgr50BC8D/uVzE/GozQ==",
+  "license": "LGPL-2.1",
+  "lockfileLicense": "LGPL-2.1",
+  "name": "soundtouchjs",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "LGPL-2.1",
+  "resolved": "https://registry.npmjs.org/soundtouchjs/-/soundtouchjs-0.3.0.tgz",
+  "version": "0.3.0"
+}

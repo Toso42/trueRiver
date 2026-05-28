@@ -1,0 +1,78 @@
+plugins {
+  id 'com.android.application'
+}
+
+def triverReleaseStoreFile = System.getenv('TRIVER_ANDROID_KEYSTORE')
+def triverReleaseStorePassword = System.getenv('TRIVER_ANDROID_KEYSTORE_PASSWORD')
+def triverReleaseKeyAlias = System.getenv('TRIVER_ANDROID_KEY_ALIAS')
+def triverReleaseKeyPassword = System.getenv('TRIVER_ANDROID_KEY_PASSWORD')
+def triverReleaseSigningEnabled = triverReleaseStoreFile &&
+    triverReleaseStorePassword &&
+    triverReleaseKeyAlias &&
+    triverReleaseKeyPassword
+
+android {
+  namespace 'com.trueriver.tvshell'
+  compileSdk 34
+
+  defaultConfig {
+    applicationId 'com.trueriver.tvshell'
+    minSdk 24
+    targetSdk 34
+    versionCode 57
+    versionName '0.4.17'
+
+    buildConfigField 'String', 'TV_START_PATH', '"/tv/video?tv_shell=1&wrapper=0.4.17"'
+    buildConfigField 'String', 'TV_USER_AGENT_SUFFIX', '"trueRiverTvShell/0.4.17"'
+    buildConfigField 'String', 'TV_API_DEFAULT_HOST', '""'
+    buildConfigField 'String', 'TV_API_DEFAULT_PORT', '"80"'
+    buildConfigField 'String', 'TV_API_HOST_HEADER', '""'
+  }
+
+  signingConfigs {
+    release {
+      if (triverReleaseSigningEnabled) {
+        storeFile rootProject.file(triverReleaseStoreFile)
+        storePassword triverReleaseStorePassword
+        keyAlias triverReleaseKeyAlias
+        keyPassword triverReleaseKeyPassword
+        enableV1Signing true
+        enableV2Signing true
+        enableV3Signing true
+      }
+    }
+    debug {
+      enableV1Signing true
+      enableV2Signing true
+    }
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      if (triverReleaseSigningEnabled) {
+        signingConfig signingConfigs.release
+      }
+      proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+    debug {
+      minifyEnabled false
+      signingConfig signingConfigs.debug
+    }
+  }
+
+  buildFeatures {
+    buildConfig true
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+}
+
+dependencies {
+  implementation 'androidx.media3:media3-exoplayer:1.4.1'
+  implementation 'androidx.media3:media3-exoplayer-hls:1.4.1'
+  implementation 'androidx.media3:media3-ui:1.4.1'
+}

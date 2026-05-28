@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "tinyglobby",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz",
+  "version": "0.2.16"
+}

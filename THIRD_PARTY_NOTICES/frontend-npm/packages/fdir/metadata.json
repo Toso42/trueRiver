@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "fdir",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+  "version": "6.5.0"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "triver",
+  "private": true,
+  "version": "0.1.0-techdemo.5",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.srcnew.config.js --host 0.0.0.0 --port 6001",
+    "build": "node node_modules/vite/bin/vite.js build --config vite.srcnew.config.js",
+    "build:new": "node node_modules/vite/bin/vite.js build --config vite.srcnew.config.js",
+    "build:new:debug": "node node_modules/vite/bin/vite.js build --config vite.srcnew.config.js --minify=false",
+    "build:new:readable": "node node_modules/vite/bin/vite.js build --config vite.srcnew.readable.config.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "butterchurn": "^2.6.7",
+    "butterchurn-presets": "^2.4.7",
+    "hls.js": "^1.6.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "soundtouchjs": "^0.3.0",
+    "wavesurfer.js": "^7.12.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.13"
+  }
+}

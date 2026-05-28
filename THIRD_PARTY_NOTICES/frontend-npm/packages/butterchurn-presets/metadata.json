@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-4MdM8ripz/VfH1BCldrIKdAc/1ryJFBDvqlyow6Ivo1frwj0H3duzvSMFC7/wIjAjxb1QpwVHVqGqS9uAFKhpg==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "butterchurn-presets",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/butterchurn-presets/-/butterchurn-presets-2.4.7.tgz",
+  "version": "2.4.7"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+  <uses-feature android:name="android.software.leanback" android:required="false" />
+
+  <application
+    android:allowBackup="false"
+    android:banner="@drawable/tv_banner"
+    android:hardwareAccelerated="true"
+    android:icon="@drawable/trueriver_only_logo"
+    android:label="trueRiver TV"
+    android:roundIcon="@drawable/trueriver_only_logo"
+    android:supportsRtl="false"
+    android:theme="@style/Theme.TrueRiverTvShell"
+    android:usesCleartextTraffic="true">
+
+    <activity
+      android:name=".NativeHomeActivity"
+      android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+      android:exported="true"
+      android:launchMode="singleTask"
+      android:screenOrientation="landscape">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+        <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+      android:name=".NativeDetailActivity"
+      android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+      android:exported="false"
+      android:launchMode="singleTask"
+      android:screenOrientation="landscape" />
+    <activity
+      android:name=".NativePlayerActivity"
+      android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+      android:exported="false"
+      android:launchMode="singleTask"
+      android:screenOrientation="landscape" />
+    <activity
+      android:name=".MainActivity"
+      android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+      android:exported="false"
+      android:launchMode="singleTask"
+      android:screenOrientation="landscape" />
+    <activity
+      android:name=".LauncherActivity"
+      android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+      android:exported="false"
+      android:launchMode="singleTask"
+      android:screenOrientation="landscape" />
+  </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-bYcLp+Vb0awsiXg/80uCRezCYHNg1/l3mt0gzHnWV9XP1W5sKa5/TCdGWaR/zBM2PeF/HbsQv/j2URNOiVuxWg==",
+  "license": "MPL-2.0",
+  "lockfileLicense": "MPL-2.0",
+  "name": "lightningcss-linux-x64-musl",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MPL-2.0",
+  "resolved": "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.32.0.tgz",
+  "version": "1.32.0"
+}

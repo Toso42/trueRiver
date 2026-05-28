@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-X0KQHljNnEkWNqqiz9zJrGunh1B0HgOxLXvnFpCOcadzcy5qohZ3tqMEUg00vncoRovXuK3ZqCT9KnnKzoInFQ==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "rolldown",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz",
+  "version": "1.0.1"
+}

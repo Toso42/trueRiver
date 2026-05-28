@@ -1,0 +1,25 @@
+# Optional local override. The easiest path is:
+#
+#   ./scripts/init-local-config.sh
+#
+# Then deploy with:
+#
+#   TRIVER_LOCAL_DIR=../triver-local ./scripts/deploy-local.sh
+
+services:
+  triver-db:
+    volumes:
+      - ${TRIVER_POSTGRES_HOST_PATH:?set TRIVER_POSTGRES_HOST_PATH}:/var/lib/postgresql/data
+
+  triver-valkey:
+    volumes:
+      - ${TRIVER_VALKEY_HOST_PATH:?set TRIVER_VALKEY_HOST_PATH}:/data
+
+  triver-clamav:
+    volumes:
+      - ${TRIVER_CLAMAV_HOST_PATH:?set TRIVER_CLAMAV_HOST_PATH}:/var/lib/clamav
+
+  triver-vpn:
+    volumes:
+      - ${TRIVER_WIREGUARD_HOST_PATH:?set TRIVER_WIREGUARD_HOST_PATH}:/etc/wireguard
+      - /lib/modules:/lib/modules:ro

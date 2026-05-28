@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "js-tokens",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",
+  "version": "4.0.0"
+}

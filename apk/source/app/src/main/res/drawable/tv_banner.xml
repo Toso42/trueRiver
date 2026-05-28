@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <shape android:shape="rectangle">
+      <gradient
+        android:angle="0"
+        android:endColor="#050908"
+        android:startColor="#13211a" />
+    </shape>
+  </item>
+  <item
+    android:bottom="46dp"
+    android:gravity="center"
+    android:left="110dp"
+    android:right="110dp"
+    android:top="46dp"
+    android:drawable="@drawable/trueriver_only_logo" />
+</layer-list>

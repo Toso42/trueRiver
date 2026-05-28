@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "@babel/runtime",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz",
+  "version": "7.29.2"
+}

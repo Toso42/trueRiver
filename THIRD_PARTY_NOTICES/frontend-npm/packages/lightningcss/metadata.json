@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==",
+  "license": "MPL-2.0",
+  "lockfileLicense": "MPL-2.0",
+  "name": "lightningcss",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MPL-2.0",
+  "resolved": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz",
+  "version": "1.32.0"
+}

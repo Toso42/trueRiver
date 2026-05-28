@@ -1,0 +1,34 @@
+name: Install help
+description: Ask for help with a local install or update.
+title: "[Install]: "
+labels: ["install"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please remove secrets before posting logs. Do not share `.env` files verbatim.
+  - type: dropdown
+    id: install_type
+    attributes:
+      label: Install type
+      options:
+        - Linux release archive
+        - Linux Git checkout
+        - Windows Docker Desktop package
+        - Android TV APK
+        - Other
+  - type: textarea
+    id: command
+    attributes:
+      label: Command you ran
+      render: shell
+  - type: textarea
+    id: output
+    attributes:
+      label: Output or error
+      render: shell
+  - type: textarea
+    id: context
+    attributes:
+      label: System details
+      description: OS, Docker version, available disk space, browser/device, and anything unusual about storage paths.

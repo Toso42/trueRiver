@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">trueRiver TV 0.4.4</string>
+  <string name="status_boot">trueRiver TV 0.4.4\nStarting wrapper…</string>
+  <string name="launcher_title">trueRiver TV 0.4.4</string>
+  <string name="launcher_message">Native launcher diagnostic screen\nPress OK to open the web shell</string>
+  <string name="native_home_title">trueRiver</string>
+  <string name="native_home_subtitle"></string>
+</resources>

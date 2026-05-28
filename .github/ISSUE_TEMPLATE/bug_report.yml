@@ -1,0 +1,53 @@
+name: Bug report
+description: Report something that does not work as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing trueRiver. Please do not include private media, passwords, tokens, public server URLs you do not want shared, or full logs containing secrets.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Release tag, APK version or commit hash.
+      placeholder: v0.1.0-techdemo.5
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Web app
+        - Backend/API
+        - Docker/install
+        - Android TV
+        - Media scan/import
+        - Playback/cache
+        - Metadata/dedup
+        - Other
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the visible failure and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start from ...
+        2. Click ...
+        3. See ...
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, browser, Docker/Desktop version, Android TV device if relevant.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs
+      render: shell

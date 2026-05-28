@@ -1,0 +1,28 @@
+.env
+.env.*
+!.env.example
+
+# Node / Vite
+node_modules/
+build/
+build-srcnew/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android / Gradle
+android-tv-shell/.gradle/
+android-tv-shell/build/
+android-tv-shell/app/build/
+android-tv-shell/local.properties
+android-tv-shell/**/*.apk
+android-tv-shell/**/*.aab
+android-tv-shell/**/*.keystore
+android-tv-shell/**/*.jks
+
+# OS / editor
+.DS_Store
+*.swp
+*.log

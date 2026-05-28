@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/root_container"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#050908"
+  android:keepScreenOn="true">
+
+  <FrameLayout
+    android:id="@+id/web_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:visibility="invisible" />
+
+  <FrameLayout
+    android:id="@+id/fullscreen_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:visibility="gone" />
+
+  <ProgressBar
+    android:id="@+id/loading_spinner"
+    style="?android:attr/progressBarStyleLarge"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:indeterminate="true" />
+
+  <TextView
+    android:id="@+id/status_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:maxWidth="720dp"
+    android:padding="24dp"
+    android:text="@string/status_boot"
+    android:textColor="#EDF2EC"
+    android:textSize="22sp"
+    android:visibility="visible" />
+
+</FrameLayout>

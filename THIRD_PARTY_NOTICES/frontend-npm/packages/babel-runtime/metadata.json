@@ -1,0 +1,10 @@
+{
+  "integrity": "sha512-ITKNuq2wKlW1fJg9sSW52eepoYgZBggvOAHC0u/CYu/qxQ9EVzThCgR69BnSXLHjy2f7SY5zaQ4yt7H9ZVxY2g==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "babel-runtime",
+  "noticeFiles": [],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/babel-runtime/-/babel-runtime-6.26.0.tgz",
+  "version": "6.26.0"
+}

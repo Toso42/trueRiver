@@ -1,0 +1,10 @@
+{
+  "integrity": "sha512-XABVmGp9Tg0WspTVvwduTc4fpqy6JnAUrSQe6OuyqD/03nI7r0O9OWUkMIwFrjKAIqolvqoA4ZrJppgwE0Gxmw==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "@rolldown/binding-linux-x64-gnu",
+  "noticeFiles": [],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.0.1.tgz",
+  "version": "1.0.1"
+}

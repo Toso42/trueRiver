@@ -1,0 +1,17 @@
+services:
+  triver-frontend-build:
+    image: node:20-alpine
+    working_dir: /frontend
+    environment:
+      VITE_TRIVER_VERSION: ${VITE_TRIVER_VERSION:-}
+      VITE_TRIVER_SOURCE_URL: ${VITE_TRIVER_SOURCE_URL:-}
+      VITE_TRIVER_SOURCE_REF: ${VITE_TRIVER_SOURCE_REF:-}
+    command: >
+      sh -lc "npm ci &&
+      npm run build &&
+      mkdir -p /frontend-package/build &&
+      find /frontend-package/build -mindepth 1 -maxdepth 1 -exec rm -rf {} + &&
+      cp -a build/. /frontend-package/build/"
+    volumes:
+      - ./frontend/source:/frontend
+      - ./frontend/package:/frontend-package

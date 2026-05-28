@@ -1,0 +1,10 @@
+{
+  "integrity": "sha512-80BnDp2Fn7RxXlEr5HHZblniY4aQ97MOAicdWWpSo0vkQiISSE9wLR4SqxKsu4gCtXFBIPPzy8JMhay4NWRg/Q==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "ecma-proposal-math-extensions",
+  "noticeFiles": [],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/ecma-proposal-math-extensions/-/ecma-proposal-math-extensions-0.0.2.tgz",
+  "version": "0.0.2"
+}

@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-MFtjBYgzmSxmgA4RAfjIyXWpGe1oALnjgUTzzV7QLx/TKxCzjtMH6Fd9/eVK+5Fg1qNoz5VAwsmMs/NofrmJvw==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "vite",
+  "noticeFiles": [
+    "LICENSE.md"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/vite/-/vite-8.0.13.tgz",
+  "version": "8.0.13"
+}

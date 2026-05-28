@@ -1,0 +1,18 @@
+# Optional reverse-proxy edge override. Copy this alongside
+# docker-compose.local.yml only when another nginx/Traefik/Caddy container needs
+# to reach trueRiver's internal nginx proxy over an existing Docker network.
+
+services:
+  triver-proxy:
+    container_name: ${TRIVER_PROXY_CONTAINER_NAME:-triver-proxy}
+    networks:
+      triver_backend:
+      triver_vpn_edge:
+      triver_public_edge:
+        aliases:
+          - ${TRIVER_PROXY_CONTAINER_NAME:-triver-proxy}
+
+networks:
+  triver_public_edge:
+    external: true
+    name: ${TRIVER_PUBLIC_NETWORK:?set TRIVER_PUBLIC_NETWORK}

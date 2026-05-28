@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-ibD2usx9JRu7f5pu2tMKMI4cpA4NgXJQoYRP4pQ7Pxmn1l6k/53qWtQWZayhYy3X4QZkt90Ot+mJEaeXouio6Q==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "@oxc-project/types",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/@oxc-project/types/-/types-0.130.0.tgz",
+  "version": "0.130.0"
+}

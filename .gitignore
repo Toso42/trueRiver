@@ -1,0 +1,65 @@
+.env
+.env.*
+!.env.example
+docker-compose.override.yml
+docker-compose.local.yml
+classic-import.local.yml
+!deploy/examples/docker-compose.local.yml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+backend/celerybeat-schedule
+
+# Node / frontend
+node_modules/
+frontend/source/node_modules/
+frontend/source/build/
+frontend/source/build-srcnew/
+frontend/source/dist/
+frontend/source/.vite/
+
+# Android / Gradle
+.gradle/
+apk/source/.gradle/
+apk/source/app/build/
+apk/source/.signing/
+apk/source/.env.signing
+apk/source/local.properties
+local.properties
+apk/package/
+*.jks
+*.keystore
+
+# Runtime data and generated volumes
+release/artifacts/
+deploy/volumes/postgres/
+deploy/volumes/valkey/
+deploy/volumes/redis/
+deploy/volumes/wireguard/
+deploy/volumes/**/*.tmp
+deploy/volumes/**/*.log
+
+# Generated audit scanner output: keep summaries, regenerate raw files locally/CI
+docs/release-audit/current/gitleaks.json
+docs/release-audit/current/trufflehog.jsonl
+docs/release-audit/current/scancode-public-head.json
+docs/release-audit/current/jscpd/*.json
+
+# User media: keep folders, never publish contents
+deploy/volumes/trive-In/*
+deploy/volumes/trive-Up/*
+deploy/volumes/trive-Out/*
+deploy/volumes/trive-dump/*
+!deploy/volumes/trive-In/.gitkeep
+!deploy/volumes/trive-Up/.gitkeep
+!deploy/volumes/trive-Out/.gitkeep
+!deploy/volumes/trive-dump/.gitkeep
+
+# Logs / OS
+*.log
+.DS_Store

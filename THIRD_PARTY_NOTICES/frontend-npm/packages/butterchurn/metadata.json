@@ -1,0 +1,12 @@
+{
+  "integrity": "sha512-BJiRA8L0L2+84uoG2SSfkp0kclBuN+vQKf217pK7pMlwEO2ZEg3MtO2/o+l8Qpr8Nbejg8tmL1ZHD1jmhiaaqg==",
+  "license": "MIT",
+  "lockfileLicense": "MIT",
+  "name": "butterchurn",
+  "noticeFiles": [
+    "LICENSE"
+  ],
+  "packageJsonLicense": "MIT",
+  "resolved": "https://registry.npmjs.org/butterchurn/-/butterchurn-2.6.7.tgz",
+  "version": "2.6.7"
+}

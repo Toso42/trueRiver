@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security report
+    url: https://github.com/Toso42/trueRiver/security/advisories/new
+    about: Please report private security issues through a GitHub security advisory when available.
+  - name: Support development
+    url: https://buymeacoffee.com/tosomalemodo
+    about: Optional donation link for trueRiver development.
